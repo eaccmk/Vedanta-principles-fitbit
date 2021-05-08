@@ -1,0 +1,25 @@
+<svg>
+  
+  <svg>
+  <gradientRect x="0" y="0" width="100%" height="100%"
+    gradient-type="radial"
+    gradient-x1="50%" gradient-y1="50%"
+    gradient-x2="50%+150" gradient-y2="50%+150"
+    gradient-color1="white"
+    gradient-color2="orangered"/>
+</svg>
+  
+  <text id="labelTimeShadow" class="time time-shadow" />
+  <text id="time" class="time" />
+  <text id="date" class="date" />
+      
+  <use id="quoteText" class ="quoteText" href="#marquee-text" >
+    <set href="group/text" attributeName="text-length" to="512" />
+	  <set href="group/copy" attributeName="text-length" to="512" />
+   
+        <rect width="100%" height="100%" fill="orange" opacity="0.0" />
+        <set href="group/text" attributeName="text-buffer"
+         to="Arise, awake and Stop not till the Goal is Reached." />
+        <set href="group/separator" attributeName="width" to="200" />
+    </use>
+</svg>

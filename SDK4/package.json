@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
+  "fitbit": {
+    "appUUID": "",
+    "appType": "clockface",
+    "appDisplayName": "Vedanta principles",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Vedanta principles"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
